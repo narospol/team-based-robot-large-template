@@ -10,7 +10,7 @@ Library           HttpLibrary.HTTP
 *** Keywords ***
 Open Browser To Landing Page
     [Arguments]    ${BROWSER}=chrome
-    Open browser    ${WEB_BASE_URL}    ${BROWSER}
+    Open browser    ${WEBSITE_URL}    ${BROWSER}
     Set Selenium Speed    ${SPEED}
 
 Change Resolution To Desktop

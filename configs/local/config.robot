@@ -6,7 +6,7 @@ ${BROWSER}             		  	Chrome
 ${SPEED}               		  	0.3
 ${TIMEOUT}    					15
 
-${WEBSITE_URL}                  https://robot-web-testing.herokuapp.com
+${WEBSITE_URL}                  https://yourwebsite.com
 
 #************************** Database Variables
 ${DB_HOSTNAME}                  db_hostname     
