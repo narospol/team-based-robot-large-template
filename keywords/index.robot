@@ -5,6 +5,8 @@ Library           Selenium2Library
 Resource          ${CURDIR}/../locators/login.locator.robot
 Resource          ${CURDIR}/../locators/register.locator.robot
 
+
+Resource          ${CURDIR}/common.robot
 # Add youre keyword resources
-Resource          ${CURDIR}/../keywords/common.robot
-Resource          ${CURDIR}/../keywords/login.keyword.robot
+Resource          ${CURDIR}/login.keyword.robot
+Resource          ${CURDIR}/register.keyword.robot

@@ -1,5 +1,5 @@
  # Add locator on login page
- *** Variables ***
+*** Variables ***
 
 ${login_input_username}               id=username
 ${login_input_password}               id=password
